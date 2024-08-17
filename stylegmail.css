@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    
+    height: 10vh;
+    background-color: #dddddd;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+.header-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.header-buttons a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #007bff;
+}
+
+.header-buttons a:nth-child(2) {
+    background-color: #ffffff;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+.listas {
+	display: flex;
+	align-items: center;
+	position: relative;
+	max-width: 100%;
+}
+
+.nome {
+    display: flex;
+	font-size: 18px;
+	padding: 5px 10px;
+	width: 100%;
+	outline: none;
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #C4D1EB;
+	border-radius: 5px;
+	box-shadow: 3px 3px 2px 0px #E2E2E2;
+	transition: .3s ease;
+    max-width: 400px;
+    left: 5%;
+    top: 10vh;
+    position: absolute;
+}
+
+.nome:focus {
+	background: #F2F2F2;
+	border: 1px solid #5A7EC7;
+	border-radius: 10px;
+}
+
+.nome::placeholder {
+	color: #DDDDDD;
+}
+#tipo{
+
+    padding-top: 40px;
+    padding-left: 100px;
+
+}
+.email{
+    display: flex;
+	font-size: 18px;
+	padding: 5px 10px;
+	width: 100%;
+	outline: none;
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #C4D1EB;
+	border-radius: 5px;
+	box-shadow: 3px 3px 2px 0px #E2E2E2;
+	transition: .3s ease;
+    max-width: 400px;
+    left: 5%;
+    top: 30vh;
+    position: absolute;
+
+}
+.email:focus{
+    background: #F2F2F2;
+	border: 1px solid #5A7EC7;
+	border-radius: 10px;
+
+}
+.senha{
+    display: flex;
+	font-size: 18px;
+	padding: 5px 10px;
+	width: 100%;
+	outline: none;
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #C4D1EB;
+	border-radius: 5px;
+	box-shadow: 3px 3px 2px 0px #E2E2E2;
+	transition: .3s ease;
+    max-width: 400px;
+    left: 5%;
+    top: 43vh;
+    position: absolute;
+
+
+}
+.senha:focus{
+    background: #F2F2F2;
+	border: 1px solid #5A7EC7;
+	border-radius: 10px;
+
+}
+.confirme{
+    display: flex;
+	font-size: 18px;
+	padding: 5px 10px;
+	width: 100%;
+	outline: none;
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #C4D1EB;
+	border-radius: 5px;
+	box-shadow: 3px 3px 2px 0px #E2E2E2;
+	transition: .3s ease;
+    max-width: 400px;
+    left: 5%;
+    top: 49vh;
+    position: absolute;
+
+}
+
+
+.criar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #007bff;
+    display: flex;
+    left: 5%;
+    top: 56vh;
+    position: absolute;
+}
+footer {
+    height: 10vh;
+    background-color: #dddddd;
+    padding: 20px;
+    text-align: end;
+    margin-top: 50px;
+}
+
+footer nav {
+    padding-top: 30px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 19px;
+}  
+main{
+    height: 65vh;
+
+}
+.image{
+    display: flex;
+    position: absolute;
+    right: 7%;
+    top: 30%;
+}

@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    height: 50px;
+    background-color: #dddddd;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+.header-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.header-buttons a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #007bff;
+}
+
+.header-buttons a:nth-child(2) {
+    background-color: #ffffff;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+#logo{
+    width: 150px;
+
+}
+#loja{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.texto{
+    padding-left: 80px;
+    padding-top: 50px;
+}
+#continuar{
+    padding-left: 80px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+#facebook{
+    display: flex;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 100px;
+    border-radius: 15px;
+    align-items: center;
+    color: white;
+    font-size: large;
+    font-weight: 800;
+    margin-top: 40px;
+}
+#gmail{
+    display: flex;
+    background-color: white;
+    padding: 10px 50px 10px 20px ; 
+    border: none;
+    margin-left: 100px;
+    border-radius: 15px;
+    align-items: center;
+    color: black;
+    font-size: large;
+    font-weight: 800;
+    margin-top: 40px;
+
+}
+#entregador{
+    width: 300px;
+    position: absolute;
+    top: 30vh;
+    right: 10%;
+    
+
+}
+footer {
+    height: 10vh;
+    background-color: #dddddd;
+    padding: 20px;
+    text-align: end;
+    margin-top: 50px;
+}
+
+footer nav {
+    padding-top: 30px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 19px;
+}  
+main{
+    height: 71vh;
+}
+.face{
+    max-width: 400px;
+    display: flex;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 100px;
+    border-radius: 15px;
+    align-items: center;
+    color: white;
+    font-size: large;
+    font-weight: 800;
+    margin-top: 40px;  
+    
+}
+.face a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: white;
+}
+.gmail a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+}
+.gmail{
+    max-width: 400px;
+    display: flex;
+    background-color: #c4c4c4;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 100px;
+    border-radius: 15px;
+    align-items: center;
+    color: white;
+    font-size: large;
+    font-weight: 800;
+    margin-top: 40px;  
+    
+}

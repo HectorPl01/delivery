@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    
+    height: 10vh;
+    background-color: #dddddd;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+.header-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.header-buttons a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #007bff;
+}
+
+.header-buttons a:nth-child(2) {
+    background-color: #ffffff;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+
+main {
+    height: 55.8vh;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+main h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+
+main p {
+    font-size: 18px;
+    color: #555555;
+    margin-top: 80px;
+}
+
+.search-box {
+    margin: 30px 0;
+}
+
+.search-box input[type="text"] {
+    margin-top: 60px;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.images {
+    width: 300px;
+    position: absolute;
+    top: 43vh;
+    right: 10%;
+}
+
+
+
+footer {
+    height: 10vh;
+    background-color: #dddddd;
+    padding: 20px;
+    text-align: end;
+    margin-top: 50px;
+}
+
+footer nav {
+    padding-top: 30px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 19px;
+}  
+
+
+#logo{
+    width: 150px;
+}
+.pizzaria{
+    width: 300px;
+    position: absolute;
+    top: 35vh;
+    left: 3%;
+
+}
